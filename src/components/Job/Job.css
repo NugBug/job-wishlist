@@ -1,0 +1,13 @@
+.card-container {
+  padding: 10px 0;
+}
+
+.card {
+  width: 100%;
+  filter: brightness(125%);
+}
+
+.delete-button-container {
+  position: absolute;
+  right: 15px;
+}

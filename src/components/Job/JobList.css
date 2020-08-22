@@ -1,0 +1,20 @@
+.job-list-container {
+  flex: 4;
+  display: flex;
+  flex-flow: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.job-list-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.job-list-container::-webkit-scrollbar * {
+  background: transparent;
+}
+
+.job-list-container::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.1) !important;
+}

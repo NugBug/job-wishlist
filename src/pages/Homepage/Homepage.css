@@ -1,0 +1,25 @@
+.homepage-container {
+  flex: 1 1 0;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  width: 500px;
+  padding: 30px;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.header {
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.wand {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 75px;
+}
