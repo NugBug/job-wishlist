@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 Project must be built before running, see below.
 
-Runs the current build of the project.
+Serves up and runs the current build of the project.
 
 ### `npm test`
 
