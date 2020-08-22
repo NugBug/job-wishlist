@@ -13,13 +13,19 @@
   filter: brightness(75%);
 }
 
-.modal-body {
+.custom-modal-body {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 125px;
 }
 
-.modal-footer {
-  height: 150px;
+.custom-modal-footer {
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
 }

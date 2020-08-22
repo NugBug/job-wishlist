@@ -17,7 +17,7 @@ const DeleteJobModal = (props) => {
         centered
         {...props}
       >
-        <Modal.Body bsPrefix="modal-body">
+        <Modal.Body bsPrefix="custom-modal-body">
           <h3>Delete Job</h3>
           <h5>Are you sure you want to delete this job?</h5>
         </Modal.Body>
@@ -26,7 +26,7 @@ const DeleteJobModal = (props) => {
             justifyContent: "center",
             borderTop: "none",
           }}
-          bsPrefix="modal-footer"
+          bsPrefix="custom-modal-footer"
         >
           <Button bsPrefix="custom-btn" onClick={handleDelete}>
             Delete
