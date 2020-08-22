@@ -17,7 +17,7 @@ const DeleteJobModal = (props) => {
         centered
         {...props}
       >
-        <Modal.Body className="modal-body">
+        <Modal.Body bsPrefix="modal-body">
           <h3>Delete Job</h3>
           <h5>Are you sure you want to delete this job?</h5>
         </Modal.Body>
